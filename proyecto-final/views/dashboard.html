@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" xmlns:th="www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    xmlns:sec="https//www.thymeleaf.org/extras/spring-security">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fabrx">
+    <meta name="keywords" content="Fabrx">
+    <meta name="author" content="Fabrx">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Dashboard</title>
+
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- Fabrx External CSS -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/fabrx-styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Fabrx Scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/dashboard.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body onload="validateSession()">
+    <div class="container-scroller">
+        <section class="fabrx-sidebar">
+            <div class="row no-gutters">
+                <!--Sidebar -->
+                <div class="col-auto">
+                    <aside class="fabrx-aside fabrx-aside-two">
+                        <div class="bg-gradient-primary" style="height: 60px;">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <i class="fas fa-shopping-cart fa-400px"
+                                        style="padding-left: 25px; padding-top: 12px; font-size: 30px; color: white;">
+                                    </i>
+                                </div>
+                                <div class="col-sm-10">
+                                    <strong class="font-size-30"
+                                        style="margin-left: 20px; font-size: 35px; color: white; font: bolder; border: thick;">Proyecto
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fabrx-aside-header">
+                            <div class="d-flex align-items-center pt-5">
+                                <a href="#0" class="fabrx-avatar fabrx-status dnd md">
+                                    <img src="images/avatars/avatar-1.png" alt="Avatar">
+                                </a>
+                                <div id="registrationUserName" class="pl-2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fabrx-menu-category">
+                            <ul class="list-unstyled menu-category">
+                                <li>
+                                    <a href="http://localhost:3000/user" aria-expanded="false" aria-controls="collapseThree1">
+                                        <span> 
+                                            <i class="fas fa-box-open"></i> 
+                                            <span class="dropdown-text ml-0">Usuarios</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://localhost:3000/customer" aria-expanded="false" aria-controls="collapseThree1">
+                                        <span> 
+                                            <i class="fas fa-box-open"></i> 
+                                            <span class="dropdown-text ml-0">Clientes</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://localhost:3000/interaction" aria-expanded="false" aria-controls="collapseThree1">
+                                        <span> 
+                                            <i class="fas fa-box-open"></i> 
+                                            <span class="dropdown-text ml-0">Interacción</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fabrx-aside-body fabrx-scroll accordion1">
+                            <div class="fabrx-aside-footer">
+                                <a href="#" onclick="logout()" class="font-size-12">
+                                    Sign out
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <!-- Contenido -->
+                <div class="col-md p-4 bg-content">
+                    <div class="content-wrapper">
+                    </div>
+                </div>
+                <!-- Fin Contenido -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>

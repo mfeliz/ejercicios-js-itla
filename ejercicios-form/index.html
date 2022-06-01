@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/JavaScript" src="js/script.js"></script>
+</head>
+<body>
+    <main>
+        <h2>
+            FORMULARIO Y EL DOM
+        </h2>
+        <form id="form">
+            <section class="sectionText">
+                <label>Color del texto</label>
+                <label>Color del fondo</label>
+                <label>Tamaño de fuentes</label>
+                <label for="ancho">Ancho</label>
+                <label for="alto">Alto</label>
+            </section>
+            <section class="sectionInput">
+                <input type="text" name="colorTexto" id="colorTexto"/>
+                <input type="text" name="colorFondo" id="colorFondo"/>
+                <input type="text" name="fuente" id="fuente">
+                <input type="text" name="ancho" id="ancho"/>
+                <input type="text" name="alto" id="alto"/>
+                <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                <button type="submit">Aplicar</button>
+            </section>
+        </form>
+        <section class="div">
+            <div class="divToChange" id="caja">
+                content
+            </div>
+        </section>
+    </main>
+</body>
+</html>

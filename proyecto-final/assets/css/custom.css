@@ -1,0 +1,103 @@
+.save-button {
+	background-color: #3063CB;
+	background-image: linear-gradient(180deg, #3063CB 10%, #224abe 100%);
+	background-size: cover;
+	border: none;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	/*   margin: 4px 2px; */
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.edit-button {
+	background-color: #3063CB;
+	background-image: linear-gradient(180deg, #3063CB 10%, #224abe 100%);
+	background-size: cover;
+	border: none;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	  /* margin: 4px 2px; */
+	cursor: pointer;
+	width: 45px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.title {
+	color: #656565;
+	font-size: 30px;
+	margin-left: 0px;
+	/*margin-bottom: 20px !important;*/
+	float: left;
+}
+
+h5.title {
+	color: #656565;
+	font-size: 20px;
+	margin-left: 0px;
+	/*margin-bottom: 20px !important;*/
+}
+
+.subtitle {
+	color: #4D91E5;
+	font-size: 20px;
+	float: left;
+	vertical-align: middle;
+	margin-top: 18px;
+	margin-bottom: 20px !important;
+	
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.edit-table-button {
+	background-color: gray;
+	/*   background-image: linear-gradient(180deg, #bababa 10%, gray 100%); */
+	/*   background-size: cover; */
+	border: none;
+	color: white !important;
+	padding: 7px;
+	text-align: center  !important;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	/*   margin: 4px 2px; */
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.cancel-table-button {
+	background-color: #3063CB;
+	background-image: linear-gradient(180deg, #F46363 100%, #F46363 100%);
+	background-size: cover;
+	border: none;
+	color: white !important;
+	padding: 7px;
+	text-align: center  !important;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  /*   margin: 4px 2px; */
+	cursor: pointer;
+	width:  40px;
+	height: 40px;
+	border-radius: 5px;
+	vertical-align: middle;
+}

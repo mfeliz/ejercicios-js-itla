@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 7,
+      "name": "Jorge Luis Mejia Duarte",
+      "user_name": "jrgluis",
+      "password": "1234"
+    },
+    {
+      "id": 9,
+      "name": "Marco Feliz",
+      "user_name": "marcofeliz",
+      "password": "1234"
+    },
+    {
+      "id": 8,
+      "name": "Enfry Ciprian",
+      "user_name": "eciprian",
+      "password": "1234"
+    },
+    {
+      "id": 10,
+      "name": "Profesor",
+      "user_name": "profe",
+      "password": "profe1234"
+    }
+  ],
+  "customers": [
+    {
+      "id": 2,
+      "name": "Mauricio Minaya",
+      "email": "mauricio.minaya@hotmail.com",
+      "address": "calle 3ra, al lado de la otra calle.",
+      "createdAt": "2022-5-31"
+    },
+    {
+      "id": 3,
+      "name": "Pablo Emilio Escobar Gaviria",
+      "email": "pescobar-patron@capo-tillo.com",
+      "address": "Calle de los capos",
+      "createdAt": "2022-5-31"
+    },
+    {
+      "id": 4,
+      "name": "Peter Pan",
+      "email": "peterpan@palomito.com",
+      "address": "Calle de mentirita",
+      "createdAt": "2022-5-31"
+    },
+    {
+      "id": 5,
+      "name": "MercaSID",
+      "email": "info@mercasid.com",
+      "address": "avenida donde esta mercasid #45, villa Juana",
+      "createdAt": "2022-5-31"
+    }
+  ],
+  "interactions": [
+    {
+      "id": 1,
+      "note": "Cliente necesita asesoría en temas de seguridad\n--\nReunion pautada para el viernes 03/06/2022 con los Sres:\nPedro Almodovar\nCheche Abreu\nPaquito Guzman\nJohn Travolta\n\nSe decidió hacer esta reunion via zoom",
+      "createdAt": "2022-5-31",
+      "user": 9,
+      "customer": 2,
+      "customer_representative": "Mauricio Minaya"
+    },
+    {
+      "id": 2,
+      "note": "El instituto tecnológico de las americas ITLA requiere nuevo personal con conocimientos de Redes y cableado estructurado.",
+      "createdAt": "2022-5-31",
+      "user": 9,
+      "customer": 2,
+      "customer_representative": "Mauricio Minaya"
+    },
+    {
+      "id": 3,
+      "note": "Este cliente solicita una cotizacion con los siguientes artículos:\n\n5 PC Dell Optiplex 7450 con Proc I5, 16GB Ram, 500 GB SSD.\n5 Monitores Dell de 24\"\n5 Escritorios\n1 TV 42\"\n20 Taclados Dell\n20 Mouse Dell\n1 HDD de 500GB",
+      "createdAt": "2022-5-31",
+      "user": 9,
+      "customer": 3,
+      "customer_representative": "Pablo Emilio Escobar Gaviria"
+    },
+    {
+      "id": 4,
+      "note": "Este cliente necesita asesoría en seguridad perimetral",
+      "createdAt": "2022-5-31",
+      "user": 9,
+      "customer": 2,
+      "customer_representative": "Mauricio Minaya"
+    },
+    {
+      "id": 5,
+      "note": "Reunion para el dia 07/06/2022\n\nEl cliente se arrepintio.",
+      "createdAt": "2022-5-31",
+      "user": 9,
+      "customer": 3,
+      "customer_representative": "Pablo Emilio Escobar Gaviria"
+    },
+    {
+      "id": 7,
+      "note": "El cliente solicita que no le vuelvan a contactar.\n\nDebe ser eliminado de la base de datos.\n\nLuego llamo para hacer un pedido.",
+      "createdAt": "2022-5-31",
+      "user": 9,
+      "customer": 5,
+      "customer_representative": "MercaSID"
+    }
+  ]
+}

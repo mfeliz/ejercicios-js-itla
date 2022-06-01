@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Jorge Luis Mejia",
+      "userName": "jmejia",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "Administrador",
+      "user_ame": "admin",
+      "password": "123456"
+    },
+    {
+      "name": "Jorge Luis Mejia",
+      "userName": "mminaya",
+      "password": "s12321",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Jorge Luis Mejia",
+      "userName": "mminaya",
+      "password": "1598787"
+    }
+  ]
+}
